@@ -1,0 +1,229 @@
+.container {
+  padding: 30px 30px 0 30px;
+
+  .top-tab {
+    padding-bottom: 30px;
+  }
+
+  .combine-page {
+    padding-top: 20px;
+    border-top: 1px solid #edeff0;
+
+  }
+
+  .page {
+    .button-left {
+      display: inline-block;
+      float: right;
+    }
+
+    .condiction-bar {
+      margin-top: 20px;
+    }
+
+    .input-style {
+      width: 120px;
+      margin-right: 10px;
+    }
+
+    .common-selecter {
+      display: inline-block;
+      width: 120px;
+      height: 30px;
+      padding-right: 10px;
+    }
+
+    .time-selecter {
+      display: inline-block;
+      margin-right: 10px;
+
+      span {
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+        color: #878D99;
+        padding-right: 10px;
+      }
+    }
+
+    .table {
+      margin-top: 20px;
+      font-size: 14px;
+
+      .el-table__header tr,
+      .el-table__header th {
+        padding: 17px 0;
+        text-align: center;
+        font-family: PingFangSC-Medium;
+        font-size: 14px;
+        color: #475266;
+        background-color: #F2F3F5;
+        line-height: 14px;
+      }
+
+      .el-table__body tr,
+      .el-table__body td {
+        padding: 5px 0;
+        text-align: center;
+
+      }
+    }
+
+    .page-num {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 190px;
+    }
+
+    .el-dialog {
+      padding: 30px;
+
+      .el-dialog__header {
+        padding: 0
+      }
+
+      .el-dialog__body {
+        padding: 0;
+      }
+    }
+
+  }
+
+  // 下架弹出
+  .undercarriage-body {
+    .dialog-content {
+      border-top: 1px solid #edeff0;
+      border-bottom: 1px solid #edeff0;
+      margin: 20px 0;
+      padding-top: 20px;
+
+      .item-title {
+        text-align: right;
+        font-size: 12px;
+        color: #464b5b;
+        margin-bottom: 20px;
+
+      }
+
+      .item-text {
+        font-size: 12px;
+        color: #878d99;
+        margin-left: 10px;
+      }
+
+      .item-input {
+        width: 200px;
+        height: 30px;
+        font-size: 12px;
+        color: #878d99;
+        margin-left: 10px;
+      }
+
+      .item-poster {
+        text-align: center;
+        font-size: 10px;
+        color: #6595f4;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+      }
+
+      .font-red {
+        color: #e56a67;
+      }
+    }
+
+    .dialog-button {
+      width: 47%;
+      margin: 0 auto;
+    }
+  }
+
+  //下架记录/置顶下架 详情弹出
+  .dialog-detail {
+    .block-title {
+      font-family: PingFangSC-Medium;
+      font-size: 18px;
+      color: #2c2f37;
+      margin-top: 30px;
+      font-weight: 600;
+    }
+
+    .his-title {
+      font-size: 16px;
+      color: #878d99;
+      padding: 20px 0;
+    }
+
+    /* 详情价格 */
+    .top-price {
+      .price-name {
+        margin-bottom: 20px;
+        display: inline-block;
+      }
+
+      .price-num {
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 6px;
+        height: 6px;
+      }
+    }
+
+    .dialog-title {
+      padding-top: 20px;
+      font-family: PingFangSC-Medium;
+      font-size: 14px;
+      color: #475266;
+    }
+
+    .detail-block {
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid#EDEFF0;
+    }
+
+    .swiper-block {
+      margin-top: 20px;
+
+      .swiper-box {
+        margin-top: 10px;
+      }
+    }
+
+    .dialog-remark {
+      font-family: PingFangSC-Regular;
+      font-size: 12px;
+      color: #878d99;
+      text-align: left;
+      padding-top: 11px;
+    }
+
+    .info-item {
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      color: #878d99;
+      line-height: 20px;
+      margin-top: 20px;
+
+      .answer-item {
+        color: #475266;
+        line-height: 20px;
+      }
+    }
+
+    /* 展示更多 */
+    .show-more {
+      width: 100%;
+      text-align: center;
+      color: #6595f4;
+    }
+  }
+
+  .red-star {
+    line-height: 36px;
+    font-size: 10px;
+    color: #e56a67;
+  }
+}
